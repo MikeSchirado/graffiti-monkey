@@ -1,0 +1,14 @@
+---
+#region: us-east-1
+_instance_tags_to_propagate:
+  - 'Application'
+  - 'Environment'
+  - 'Product'
+
+_volume_tags_to_propagate:
+  - 'Name'
+  - 'Instance_id'
+  - 'Device'
+  - 'Application'
+  - 'Environment'
+  - 'Product'
