@@ -204,8 +204,8 @@ class GraffitiMonkey(object):
                 tags_to_set[tag_name] = value
 
         # Additional tags
-        tags_to_set['instance_id'] = instance_id
-        tags_to_set['device'] = device
+        tags_to_set['Instance_id'] = instance_id
+        tags_to_set['Device'] = device
 
         # Set default tags for volume
         for tag in self._volume_tags_to_be_set:
